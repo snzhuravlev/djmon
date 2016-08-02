@@ -1,0 +1,26 @@
+database:
+  erc:
+    ip: 10.1.8.7
+    port: 1521
+    sid: erc
+    user: srg
+    password: XSW123edc
+  vp:
+    ip: 10.1.8.8
+    port: 1521
+    sid: vp
+    user: srg
+    password: XSW123edc
+  jp:
+    ip: 10.1.8.9
+    port: 1521
+    sid: jp
+    user: srg
+    password: XSW123edc
+  hope:
+    ip: 10.1.8.10
+    port: 1521
+    sid: hope
+    user: srg
+    password: XSW123edc
+
