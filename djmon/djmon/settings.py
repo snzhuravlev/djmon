@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'monitora',
 ]
 
+MEDIA_ROOT = '/home/sergey/app/python/django/djmon/fs'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -94,50 +96,6 @@ DATABASES = {
         'threaded': True,
          },
     },
-    'erc': {
-    'ENGINE':   'django.db.backends.oracle',
-    'NAME': 'erc',
-    'USER': 'srg',
-    'HOST': '10.1.8.7',
-    'PORT': '1521',
-    'PASSWORD': 'XSW123edc',
-    'OPTIONS': {
-        'threaded': True,
-         },
-    },
-    'vp': {
-    'ENGINE':   'django.db.backends.oracle',
-    'NAME': 'vp',
-    'USER': 'srg',
-    'HOST': '10.1.8.8',
-    'PORT': '1521',
-    'PASSWORD': 'XSW123edc',
-    'OPTIONS': {
-        'threaded': True,
-         },
-    },
-    'jp': {
-    'ENGINE':   'django.db.backends.oracle',
-    'NAME': 'jp',
-    'USER': 'srg',
-    'HOST': '10.1.8.9',
-    'PORT': '1521',
-    'PASSWORD': 'XSW123edc',
-    'OPTIONS': {
-        'threaded': True,
-         },
-    },
-    'hope': {
-    'ENGINE':   'django.db.backends.oracle',
-    'NAME': 'hope',
-    'USER': 'srg',
-    'HOST': '10.1.8.10',
-    'PORT': '1521',
-    'PASSWORD': 'XSW123edc',
-    'OPTIONS': {
-        'threaded': True,
-        },
-     },
 }
 
 
